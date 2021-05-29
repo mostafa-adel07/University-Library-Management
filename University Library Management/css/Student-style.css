@@ -1,0 +1,109 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    list-style: none;
+    position: absolute;
+    top:2%;
+    right:-4%;
+    margin-right: 110px;
+   
+   
+}
+.nav-pic
+{
+    position: relative;
+    float: right;
+    bottom: 155px;
+    right: 50px;
+}
+.nav-pic .profile-pic
+{
+    border-radius: 50%;
+    border : 3px solid white;
+}
+.profile
+{
+    position: relative;
+    left:  30px;
+    display: inline-block;
+    line-height: 0px;
+    
+}
+.profile h3
+{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    right: 17px;
+}
+.profile-pic:hover
+{
+    cursor: pointer;
+    border-color: teal;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0px;
+    top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  .menu
+  {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      top:4px;
+      left: 5px;
+  }
+  /*Name of the student*/
+  .student-name
+  {
+      position: relative;
+      color:white;
+      bottom: 35px;
+      font-size: 20px;
+      font-weight: 700;
+  }
+#logo {
+  position: absolute;
+  width: 7%;
+  left: 5%;
+  
+  padding: 25px 20px;
+}
+button h3
+{
+    display: block;
+}

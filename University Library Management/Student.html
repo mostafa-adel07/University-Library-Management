@@ -1,0 +1,113 @@
+<!--Student interface-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/Student-style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="first">
+        <!-- nav img-->
+        <img src="img/nav.png" style ="width:100%;height: 180px;  position: relative;">
+        <!-- logo img-->
+        <a href="Student.html"><img id="logo" src="img/logoBOLD.png" alt="home"></a>
+        <div class="nav-pic">
+            <div class="profile">
+                <img src="https://library.kissclipart.com/20180916/zvq/kissclipart-icon-clipart-computer-icons-kerona-scientific-limi-a1bc81c60735cb88.jpg" width="90" height="90" class="profile-pic" onmouseover="myFunction()">
+                <h3>Student name</h3>
+            </div>
+                <div class="dropdown">
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="Student.html">Home</a>
+                        <a onclick="updateStudent()">Update my profile</a>
+                        <a href="index.html">Log out</a>
+                    </div>
+                </div>
+                
+        </div>
+    </header>
+    <div class="second" id="second">
+        <!--Search bar-->
+        <div class="search-box">
+          <input class="search-txt" type="text" name="" placeholder="Enter the book name">
+          <a class="search-btn" href="#">
+             <i class=""><img src="img/search.png" class="search-img">
+             </i>
+          </a>
+        </div>
+         <!-- main page img -->
+         <img id= "fig1" src="img/3630159.png" >
+         <h1 class="quote">The best place to search for a book</h1>
+     </div>
+ 
+ 
+     <!-- RECOMMENDATIONS BOOKS-->
+     <h2>Recommendations</h2>
+ 
+     <!-- First three books -->
+     <div class="BooksLayer1" id="zz">
+         
+         <!--  cards collection -->
+         <div class="card"> 
+             <img src="img/books/1.jpg">
+             <div class="info">
+             <h1>Fundementals of database systems</h1>
+             <a href="#" class="book-btn">Read More</a>   
+             </div>
+         </div>
+         
+         <div class="card"> 
+             <img src="img/books/3.jpg">
+             <div class="info">
+             <h1>Code Complete</h1>
+             <a href="#" class="book-btn">Read More</a>   
+             </div>
+         </div>
+
+         <div class="card"> 
+             <img src="img/books/2.jpg">
+             <div class="info">
+             <h1>Idiot Brain</h1>
+             <a href="#" class="book-btn">Read More</a>   
+             </div>
+         </div>
+         
+     </div>
+ 
+    <!-- First three books -->
+    <div class="BooksLayer2">
+         <!--  cards collection -->
+         <div class="card"> 
+             <img src="img/books/4.jpeg">
+             <div class="info">
+             <h1>العبرات</h1>
+             <a href="#" class="book-btn">Read More</a>   
+             </div>
+         </div>
+
+         <div class="card"> 
+             <img src="img/books/5.jpg">
+             <div class="info">
+             <h1>مغامرة العقل الاولي</h1>
+             <a href="#" class="book-btn">Read More</a>   
+             </div>
+         </div>
+
+         <div class="card"> 
+             <img src="img/books/6.jfif">
+             <div class="info">
+             <h1>SQL Cookbook</h1>
+             <a href="#" class="book-btn">Read More</a>   
+             </div>
+         </div>
+     </div>
+
+     <div class="Footer"> 
+         <img style= "width: 100% ; height: 100px;"src="img/Footer.png"> 
+     </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

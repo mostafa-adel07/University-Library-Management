@@ -1,0 +1,79 @@
+<!--Page of every book-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="css/Bookstyle.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Catamaran:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Assistant' ;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <!-- nav img-->
+        <img src="img/nav.png" style ="width:100%;height: 180px;  position: relative;">
+        <!-- logo img-->
+        <a href="index.html"><img id="logo" src="img/logoBOLD.png" alt="home"></a>
+
+        <!-- nav list-->
+        <ul class="nav">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a onclick="login()">Log in</a></li>
+            <li><a onclick="signUp()">Sign up</a></li>
+            <li><a onclick="loadDoc();"  href="#demo" class="about">About 🡓</a></li>
+
+        </ul>
+    </div>
+    <div id="second">
+        <!--The destination of the book-->
+        <!--For example : "Home/books/book-name" -->
+        <header>
+            <h3><span>Home</span>/<span>Books</span>/<span>George's Marvellous Medicine</span></h3>
+        </header>
+        <!--The Book details-->
+        <footer>
+            <div class="book-img">
+                <img src="img/book.webp" id="Img" width="200" height="300">
+            </div>
+
+            <div class="book-details">
+                <h3>Author : <span class="author-name">Roald Dahil</span></h3>
+                
+                <h3>Pages : <span class="pages-num">350</span></h3>
+                
+                <h3>Year of publication : <span class="publication-year">2017</span></h3>
+
+                <h3>Publisher : <span class="publisher">Penguin</span></h3>
+                
+                <h3>ISBN : <span class="isbn">9780141365503</span></h3>
+                
+            </div>
+            
+            <div class="book-description">
+                <h2><span class="book-name">George's Marvellous Medicine</span></h2>
+                <h4><span class="description">'A true genius . . . Roald Dahl is my hero' - David Walliams Phizzwhizzing new cover look and branding 
+                    for the World's NUMBER ONE Storyteller! George Kranky's Grandma is a miserable grouch. George really hates that horrid old witchy
+                     woman. One Saturday morning, George is in charge of giving Grandma her medicine. So-ho! Ah-ha! Ho-hum! George knows exactly what
+                      to do. A magic medicine* it will be. One that will either cure her completely . . . or blow off the top of her head. *WARNING: 
+                      Do not try to make George's Marvellous Medicine yourselves at home. It could be dangerous. Now you can listen to GEORGE'S MARVELLOUS
+                       MEDICINE and other Roald Dahl audiobooks read by some very famous voices, including Kate Winslet, David Walliams and Steven Fry - plus
+                        there are added squelchy soundeffects from Pinewood Studios! And look out for new Roald Dahl apps in the App store and Google Play- 
+                        including the disgusting TWIT OR MISS! and HOUSE OF TWITS inspired by the revolting Twits. 
+                </span></h4>
+            </div>
+            <div class="borrow">
+                <button class="borrow-btn">Borrow</button>
+            </div>
+        </footer>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

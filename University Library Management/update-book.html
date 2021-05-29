@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/login-signup.css" >
+    </head>
+    <body>
+        <div class="container">
+            <section id="content">
+                <!--Update information form-->
+                
+                <form action="admin.html" method="POST" enctype="multipart/form-data">
+                    <h1>Update book</h1>
+                    <input type="text" name="isbn" id="" placeholder="ISBN Code of the book" required><br>
+                     <input type="text" name="bookName" placeholder="New book name" required><br>
+                     <input type="text" name="year" id="" placeholder="Publisher year" requierd><br>
+                     <input type="text" name="author" id="" placeholder="Author" required><br>
+                     Book image <input type="file" name="file" requierd><br>
+                    Description <textarea name="description" id="" rows="4" cols="50" placeholder="Enter new description here..."></textarea><br>
+                    <input type="submit" name="update" class="submit" value="update"></button>
+                </form><!-- form -->
+            </section><!-- content -->
+        </div><!-- container -->
+    </body>
+</html>

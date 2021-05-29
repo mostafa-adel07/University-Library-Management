@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/login-signup.css" >
+</head>
+<body>
+    <div class="container">
+        <section id="content">
+            <!--Sign up form-->
+            <form action="">
+                <h1>Sign up</h1>
+                <div>
+                    <input type="text" placeholder="First name" required="" id="firstname"  required/>
+                </div>
+                <div>
+                    <input type="text" placeholder="Last name" required="" id="lastname" required/>
+                </div>
+                <div>
+                    <input type="text" placeholder="Username" required="" id="username" required/>
+                </div>
+                <div>
+                    <input type="password" placeholder="Password" required="" id="password" required/>
+                </div>
+                <div>
+                    <input type="password" placeholder="Re-enter password" required="" id="secondpassword" required/>
+                </div>
+                <div>
+                    <input type="text" placeholder="Email" required="" id="email" required/>
+                </div>
+                <div>
+                <h3 class="acctype">choose your account type : </h3>
+
+                   <label for="student" class="slabel"><input type='radio' name='gender' value='student' class="student" onclick="unget()" required>Student</label>
+                 
+                    <label for="admin" class="adlabel"><input type='radio' name='gender' value='admin'class="admin" onclick="getWork()" required>Admin</label>
+                </div>  
+                <div>
+                    <input type="submit" value="Register" />
+                    <a onclick="login()" class="register">Already registered ?</a>
+                </div>
+            </form><!-- form -->
+        </section><!-- content -->
+    </div><!-- container -->
+    </body>
+</html>

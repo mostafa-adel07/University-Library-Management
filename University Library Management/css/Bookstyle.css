@@ -1,0 +1,162 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(220, 221, 223);
+}
+header
+{
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 60px;
+    width: 90%;
+    background-color: white;
+    box-shadow:0px 1px 4px -1px black;
+
+   
+}
+footer
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 510px;
+    width: 90%;
+    background-color: white;
+    box-shadow:0px 1px 4px -1px black;
+}
+.book-img
+{
+    position: relative;
+    width: 15%;
+    height: 300px;
+    float: right;
+    margin: 10px;
+    right: 14px;
+    
+}
+.book-description
+{
+    position: relative;
+    display: inline-block;
+    width: 55%;
+    top: 10.5px;
+    margin-left: 10px;
+    text-align: left;
+    right: 14px;
+    
+
+}
+.book-description h2
+{
+    text-align: center;
+}
+.book-details
+{
+    position: relative;
+    width: 25%;
+    margin: 10px;
+    display: inline-block;
+    line-height: 1px;
+    bottom:88px;
+    
+
+}
+footer h3
+{
+    border-bottom : 1px solid black;
+    padding: 8px;
+}
+.borrow-btn
+{
+    position: relative;
+    left: 50%;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    font:#2c2929;
+    cursor: pointer;
+    border : 1px solid rgba(254,193,81,1);
+    background-color: rgba(254,193,81,1);
+}
+.borrow-btn:hover
+{
+    background-color: rgba(254,193,81,1);
+    transition: 0.6s;
+    width: 250px;
+    left: 46%;
+}
+
+h3 span
+{
+    color: firebrick
+}
+.book-name
+{
+    font-weight: 900;
+}
+#Img
+{
+    border-radius: 10%;
+}
+header h3
+{
+    position: relative;
+    top:30%;
+    left: 1%;
+}
+
+
+/*////////////////*/
+.nav{
+    list-style: none;
+    position: absolute;
+    top:2%;
+    right:-4%;
+    margin-right: 110px;
+   
+   
+}
+
+.nav li {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 5px 0px;
+  border-radius: 50px;
+}
+.nav li .about
+{
+  padding: 7px 35px;
+}
+
+.nav li a{
+  color: white;
+  padding: 6px 35px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav li a:hover {
+  background: white;
+  color: #303438;
+  border-radius: 50px;
+}
+
+
+  /*
+  ----------
+  ** LOGO **
+  ----------
+  */
+
+
+#logo {
+  position: absolute;
+  width: 7%;
+  left: 5%;  
+  padding: 25px 20px;
+}
